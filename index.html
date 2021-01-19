@@ -4,160 +4,239 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tea</title>
 </head>
 <body>
-  <title> TITLE </title>
+  
   <!-- this is the first card -->
-  <div>
-    <header>
-      <h2>Green Tea</h2>
-    </header>
+  <div class="card-container">
+
+  
+
+      <div class="card">
+
+        <div class="header">
+          <header>
+            <h2>Green Tea</h2>
+          </header>
+          </div>
+
+      <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZpXQVto7qyL_WKOBVhdyIkyqM5VSUP9mz3Q&usqp=CAU" alt="Green Tea">
+      </div>
+   
+
+      <section class="description">
+        <p>For Every Occasion: This well-rounded variety pack includes Classic Green Tea, Green Tea with Lemon, Green Tea with Pomegranate, Green Tea with Mint, Green Tea with Peach and Constant Comment Green. Delicious as hot tea or iced tea, sweetened or plain</p>
+  
+        <p class="availability">Currently Available</p>
+      </section>
+
+      <section class="specifications">
+        <h3>Specifications </h3>
+        <p>Bags: 10</p>
+        <p>2 oz.</p>
+      <footer>Expires 7/2029</footer>
+    </section>
+
+    <section class="pricing">
+      <h3> Pricing </h3>
+      <p>1: $5</p>
+      <p>2: $10</p>
+      <p>3: $15</p>  
+  </section>
+    </div> 
+  
+    
+  <!-- this is the second card -->
+  
+  
+  
+
+  <div class="card">
+
+    <div class="head">
+      <header>
+        <h2>Earl Grey Tea</h2>
+      </header>
+      </div>
+
+  <div class="image">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhMSExMVEhUVGBgYFxcYGBYVFRgVFxYYFxUWGBgaHiggHxslGxgXITEhJSotLjAuGB8/ODMsNygtLisBCgoKDg0OGhAQGzAlICUtLS0tLS03LS0tLy0tLS0tLS0vLS8tKzctLS0tLy0tLS0tNS0tLS0tLS0tLS0tLS0tLf/AABEIAOAA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQIDBAYHAQj/xABCEAACAQIEAwYEAgcGBQUAAAABAgADEQQSITEFBkEHEyJRYXEygZGhQlIUI2KSscHwM3KywtHSFUOCouEkNFNVg//EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACkRAQEAAgEDBAAFBQAAAAAAAAABAhEDEiExBBNBUSIyYaHhFFJxkbH/2gAMAwEAAhEDEQA/AO4xEQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQERLb1lGhOvlufoNYFyJZNc9FJ97D7HX7TzNUPRV+rf7YNL8SyFf8w+S2/zGehG/Mft/pCV2JRlPn/CeWfzH7p/3QhciWy7flv7HX7gfxlJxAHxXX3Gn7233gXonikHUaiewEREBERAREQEREBERAREQEREBERASxicSE6Fm6KN/c30A9TK8TVyozWvYE28z0HzmFgUOVS+rkBm/vHU/IbD0AhK6iu/xGw/KtwProx+3tMinRAFgAB6aD7SpYqOFBJIAG5JsPrA9Ans1ni3P/DcOcr4lHe9slK9Z/mKYNvnMCv2gX/9vw/G1/U0jRT61NT9I2ardYmgvzxxD8PB6vpmxFNT8/DpKV58xtwG4U4HW1dGPy8AvK3KRboydAiaU3PlT/63Fk+ndW+ueZw52ohc1XD4yj/ew7v96WYSZlKi4WNnia1gOfuGVTlGLpo17Zat6DX8stQKZsVGqrqGVgynUEEEEeYIkq6UNhl3HhPmun1Gx+YMttXKfHbL+cdP7w6e+3naZUpYQKgYkbhauSsaP4WXOn7NjZ09tiPc+UkoCIiAiIgI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" alt="Earl Grey Tea">
+    </div>
+
+    <section class="description">
+      <p>CLASSIC TEA: Earl Grey Tea is a classic combination of bold black tea and rich citrusy pure bergamot oil from Calabira, Italy. This full-bodied tea makes a great morning cup as an alternative to coffee or enjoy it over ice for a refreshment on a hot day.</p>
       
-    <section>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZpXQVto7qyL_WKOBVhdyIkyqM5VSUP9mz3Q&usqp=CAU" alt="Green Tea">
-      <p>For Every Occasion: This well-rounded variety pack includes Classic Green Tea, Green Tea with Lemon, Green Tea with Pomegranate, Green Tea with Mint, Green Tea with Peach and Constant Comment Green. Delicious as hot tea or iced tea, sweetened or plain</p>
-      <p>Currently Available</p>
+      <p class="availability">Currently Available</p>
+    </section> 
+
+  <section class="specifications">
+    <h3>Specifications </h3>
+    <p>Bags: 10</p>
+    <p>2 oz.</p>
+    <footer>Expires 7/2029</footer>
   </section>
 
-  <section>
-      <h3> Product Specifications </h3>
+  <section class="pricing">
+  <h3> Pricing </h3>
+  <p>1: $5</p>
+  <p>2: $10</p>
+  <p>3: $15</p>  
+  </section>
+</div>
+
+<!-- this is the third card -->
+
+
+
+  
+
+  <div class="card">
+
+    <div class="head">
+      <header>
+        <h2>Roobios Tea</h2>
+      </header>
+      </div>
+
+  <div class="image">
+    <img src="https://www.spiceandtea.com/media/catalog/product/cache/fb0a90b8e26ceb5370e874c9b332d3b2/s/k/sku-606_1.jpg" alt="Roobios Tea">
+  </div>
+
+  <section class="description">
+    <p>Rooibos Tea, USDA Organic from My Red Tea. South African, 100% Pure, Single Origin, Natural, Farmer Friendly, GMO and Caffeine Free. Sustainably farmed</p>
+    <p class="availability">Currently Available</p>
+  </section>
+
+  <section class="specifications">
+    <h3>Specifications </h3>
+    <p>Bags: 10</p>
+    <p>2 oz.</p>
+    <footer>Expires 7/2029</footer>
+  </section>
+
+  <section class="pricing">
+  <h3> Pricing </h3>
+  <p>1: $5</p>
+  <p>2: $10</p>
+  <p>3: $15</p>  
+  </section>
+</div>
+
+<!-- this is the fourth card -->
+
+
+
+  <div class="card"> 
+
+    <div class="head">
+      <header>
+        <h2>Chamomile Tea</h2>
+      </header>
+    </div>
+
+    <div class="image">
+      <img src="https://post.healthline.com/wp-content/uploads/2020/09/chamomile-tea-thumb.jpg" alt="Chamomile Tea">
+    </div>
+
+    <section class="description">
+      <p>Settles your nervous system and relaxes your digestive system, especially good when stressed or tense.</p>
+     
+      <p class="availability">Currently Available</p>
+    </section>
+
+  <section class="specifications">
+    <h3>Specifications </h3>
+    <p>Bags: 10</p>
+    <p>2 oz.</p>
+    <footer>Expires 7/2029</footer>
+  </section>
+
+  <section class="pricing">
+  <h3> Pricing </h3>
+  <p>1: $5 </p>
+  <p>2: $10</p>
+  <p>3: $15</p>  
+  </section>
+</div>
+
+
+<!-- this is the fifth card -->
+
+
+
+
+  <div class="card">
+
+    <div class="head">
+      <header>
+        <h2>Oolong Tea</h2>
+      </header>
+    </div>
+
+    <div class="image">
+    <img src="data:image/jpeg;base64,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" alt="Oolong Tea">
+    </div>
+
+    <section class="description">
+    <p>Mozai organic oolong tea is completely hand pick,delight aromatic with a mild flavor and vright golden color</p>
+    <p class="availability">Currently Available</p>
+  </section>
+
+  <section class="specifications">
+    <h3>Specifications </h3>
+    <p>Bags: 10</p>
+    <p>2 oz.</p>
+    <footer>Expires 7/2029</footer>
+  </section>
+
+  <section class="pricing">
+  <h3> Pricing </h3>
+  <p>1: $5</p>
+  <p>2: $10</p>
+  <p>3: $15</p>  
+  </section>
+
+</div>
+
+<!-- this is the sixth card -->
+
+
+
+  <div class="card">
+
+    <div class="head">
+      <header>
+        <h2>Yerba Mate Tea</h2>
+      </header>
+    </div>
+
+
+  <div class="image">
+    <img src="https://www.spiceandtea.com/media/catalog/product/cache/fb0a90b8e26ceb5370e874c9b332d3b2/y/e/yerba-mate-organic-tea-2.jpg" alt="Yerba Mate tea">
+  </div>
+
+    <section>
+    <p class="description">SOUTH AMERICAN TRADITIONAL TEA. Yerba Mate has been used for centuries in South America as a natural stimulant to support mental clarity and focus.</p>
+    <p class="availability">Currently Available</p>
+    </section>
+
+  <section class="specifications">
+    <h3> Specifications </h3>
       <p>Bags: 10</p>
-      <p>2 oz.</p>
+      <p>2 oz</p>
       <footer>Expires 7/2029</footer>
   </section>
 
-  <section>
-    <h2> Pricing </h2>
+  <section class="pricing">
+  <h3> Pricing </h3>
     <p>1: $5</p>
     <p>2: $10</p>
     <p>3: $15</p>  
   </section>
- </div>  
-  <!-- this is the second card -->
- <div>
-    <header>
-      <h2>Earl Grey Tea</h2>
-    </header>
-  <section>
-    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhMSExMVEhUVGBgYFxcYGBYVFRgVFxYYFxUWGBgaHiggHxslGxgXITEhJSotLjAuGB8/ODMsNygtLisBCgoKDg0OGhAQGzAlICUtLS0tLS03LS0tLy0tLS0tLS0vLS8tKzctLS0tLy0tLS0tNS0tLS0tLS0tLS0tLS0tLf/AABEIAOAA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQIDBAYHAQj/xABCEAACAQIEAwYEAgcGBQUAAAABAgADEQQSITEFBkEHEyJRYXEygZGhQlIUI2KSscHwM3KywtHSFUOCouEkNFNVg//EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACkRAQEAAgEDBAAFBQAAAAAAAAABAhEDEiExBBNBUSIyYaHhFFJxkbH/2gAMAwEAAhEDEQA/AO4xEQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQERLb1lGhOvlufoNYFyJZNc9FJ97D7HX7TzNUPRV+rf7YNL8SyFf8w+S2/zGehG/Mft/pCV2JRlPn/CeWfzH7p/3QhciWy7flv7HX7gfxlJxAHxXX3Gn7233gXonikHUaiewEREBERAREQEREBERAREQEREBERASxicSE6Fm6KN/c30A9TK8TVyozWvYE28z0HzmFgUOVS+rkBm/vHU/IbD0AhK6iu/xGw/KtwProx+3tMinRAFgAB6aD7SpYqOFBJIAG5JsPrA9Ans1ni3P/DcOcr4lHe9slK9Z/mKYNvnMCv2gX/9vw/G1/U0jRT61NT9I2ardYmgvzxxD8PB6vpmxFNT8/DpKV58xtwG4U4HW1dGPy8AvK3KRboydAiaU3PlT/63Fk+ndW+ueZw52ohc1XD4yj/ew7v96WYSZlKi4WNnia1gOfuGVTlGLpo17Zat6DX8stQKZsVGqrqGVgynUEEEEeYIkq6UNhl3HhPmun1Gx+YMttXKfHbL+cdP7w6e+3naZUpYQKgYkbhauSsaP4WXOn7NjZ09tiPc+UkoCIiAiIgI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" alt="Earl Grey Tea">
-    <p>CLASSIC TEA: Earl Grey Tea is a classic combination of bold black tea and rich citrusy pure bergamot oil from Calabira, Italy. This full-bodied tea makes a great morning cup as an alternative to coffee or enjoy it over ice for a refreshment on a hot day.</p>
-    <p>Currently Available</p>
-</section>
 
-<section>
-    <h3> Product Specifications </h3>
-    <p>Bags: 10</p>
-    <p>2 oz.</p>
-    <footer>Expires 7/2029</footer>
-</section>
-
-<section>
-  <h2> Pricing </h2>
-  <p>1: $5</p>
-  <p>2: $10</p>
-  <p>3: $15</p>  
-</section>
 </div>
-<!-- this is the third card -->
-<div>
-  <header>
-    <h2>Roobios Tea</h2>
-  </header>
-  <section>
-    <img src="https://www.spiceandtea.com/media/catalog/product/cache/fb0a90b8e26ceb5370e874c9b332d3b2/s/k/sku-606_1.jpg" alt="Roobios Tea">
-    <p>Rooibos Tea, USDA Organic from My Red Tea. South African, 100% Pure, Single Origin, Natural, Farmer Friendly, GMO and Caffeine Free. Sustainably farmed</p>
-    <p>Currently Available</p>
-</section>
-
-<section>
-    <h3> Product Specifications </h3>
-    <p>Bags: 10</p>
-    <p>2 oz.</p>
-    <footer>Expires 7/2029</footer>
-</section>
-
-<section>
-  <h2> Pricing </h2>
-  <p>1: $5</p>
-  <p>2: $10</p>
-  <p>3: $15</p>  
-</section>
-</div>
-<!-- this is the fourth card -->
-<div>
-  <header>
-    <h2>Chamomile Tea</h2>
-  </header>
-  <section>
-    <img src="https://post.healthline.com/wp-content/uploads/2020/09/chamomile-tea-thumb.jpg" alt="Chamomile Tea">
-    <p>Settles your nervous system and relaxes your digestive system, especially good when stressed or tense.</p>
-    <p>Currently Available</p>
-</section>
-
-<section>
-    <h3> Products Specifications </h3>
-    <p>Bags: 10</p>
-    <p>2 oz.</p>
-    <footer>Expires 7/2029</footer>
-</section>
-
-<section>
-  <h2> Pricing </h2>
-  <p>1: $5 </p>
-  <p>2: $10</p>
-  <p>3: $15</p>  
-</section>
-</div>
-<!-- this is the fifth card -->
-<div>
-  <header>
-    <h2>Oolong Tea</h2>
-  </header>
-  <section>
-    <img src="data:image/jpeg;base64,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" alt="Oolong Tea">
-    <p>Mozai organic oolong tea is completely hand pick,delight aromatic with a mild flavor and vright golden color</p>
-    <p>Currently Available</p>
-</section>
-
-<section>
-    <h3>Product Specifications </h3>
-    <p>Bags: 10</p>
-    <p>2 oz.</p>
-    <footer>Expires 7/2029</footer>
-</section>
-
-<section>
-  <h2> Pricing </h2>
-  <p>1: $5</p>
-  <p>2: $10</p>
-  <p>3: $15</p>  
-</section>
-</div>
-<!-- this is the sixth card -->
-<div>
-  <header>
-    <h2>Yerba Mate Tea</h2>
-  </header>
-  <section>
-    <img src="https://www.spiceandtea.com/media/catalog/product/cache/fb0a90b8e26ceb5370e874c9b332d3b2/y/e/yerba-mate-organic-tea-2.jpg" alt="Yerba Mate tea">
-    <p>SOUTH AMERICAN TRADITIONAL TEA. Yerba Mate has been used for centuries in South America as a natural stimulant to support mental clarity and focus.</p>
-    <p>Currently Available</p>
-</section>
-
-<section>
-    <h3> Product Specifications </h3>
-    <p>Bags: 10</p>
-    <p>2 oz</p>
-    <footer>Expires 7/2029</footer>
-</section>
-
-<section>
-  <h2> Pricing </h2>
-  <p>1: $5</p>
-  <p>2: $10</p>
-  <p>3: $15</p>  
-</section>
 </div>
 
   <script src="main.js"></script>
